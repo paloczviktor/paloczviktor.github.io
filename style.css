@@ -1,49 +1,108 @@
+@font-face {
+	font-family: VCR-OSD;
+	src: url(res/font/vcrosd.ttf);
+}
+
 /* BASIC ELEMENTS */
 
 * {
 	font-family: 'Roboto', sans-serif;
-	font-weight: lighter;
 }
 
 header {
-	text-align: center;
 	align-content: center;
+	text-align: center;
+	width: 100%;
+	padding-top: 20px;
 }
+
+content {
+	display: block;
+	align-content: center;
+	display: flex;
+}
+
+footer {
+	position: relative;
+
+}
+
 
 
 /*CLASSES*/
 
 /*header*/
 
-.header_name {
+.header1 {
 	font-size: 32px;
-	font-weight: black;
+	font-weight: 900;
+}
+
+.header2 {
+	font-size: 32px;
+	font-weight: 700;
 }
 
 /*navigation bar*/
 
 .navigation_bar {
-	
+	font-weight: 300;
 }
 
 .navigation_bar ul {
 	list-style-type: none;
+	padding-left: 0;
 }
 
 .navigation_bar ul li {
 	display: inline-block;
-	width: 200px;
+	padding-left: 25px;
+	margin-left: 25px;
+	padding-right: 25px;
+	margin-right: 25px;
 	padding-top: 8px;
 	padding-bottom: 8px;
+	cursor: pointer;
 }
 
 .navigation_bar ul li a {
-
+	
 }
 
 .active {
 	text-decoration: none;
+	color: rgb(0,122,255);
 }
 
+/*identity_card*/
+
+.identity_card {
+	margin: auto;
+	width: 700px;
+	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+	border-radius: 20px;
+	margin-top: 20px;
+	display: flex;
+}
+
+.profile_picture {
+	border-radius: 50%;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-right: 50px;
+	float: right;
+	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+}
+
+.idcard_info h3 {
+	font-size: 25px;
+	margin-top: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+	color: black;
+	width: 400px;
+	font-family: VCR-OSD;
+	color: rgb(130,130,130);
+}
 /*IDs*/
 
