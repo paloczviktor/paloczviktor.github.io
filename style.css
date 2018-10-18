@@ -27,7 +27,8 @@ header {
 }
 
 content {
-	 max-width: 700px;
+	margin: auto;
+	max-width: 700px;
 	display: block;
 	align-content: center;
 }
