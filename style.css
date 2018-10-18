@@ -9,6 +9,16 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+hr {
+	margin-top: 50px;
+}
+
+p {
+	font-size: 18px;
+	text-indent: 30px;
+	text-align: justify;
+}
+
 header {
 	align-content: center;
 	text-align: center;
@@ -19,12 +29,13 @@ header {
 content {
 	display: block;
 	align-content: center;
-	display: flex;
 }
 
 footer {
-	position: relative;
-
+	font-weight: 300;
+	font-size: 12px;
+	max-width: 700px;
+	margin: auto;
 }
 
 
@@ -41,6 +52,7 @@ footer {
 .header2 {
 	font-size: 32px;
 	font-weight: 700;
+	margin-bottom: 50px;
 }
 
 /*navigation bar*/
@@ -55,6 +67,7 @@ footer {
 }
 
 .navigation_bar ul li {
+	font-size: 20px;
 	display: inline-block;
 	padding-left: 25px;
 	margin-left: 25px;
@@ -104,5 +117,30 @@ footer {
 	font-family: VCR-OSD;
 	color: rgb(130,130,130);
 }
+
+/*introduction*/
+
+.introduction {
+	text-align: center;
+	margin-left: auto;
+	margin-top: 50px;
+	margin-right: auto;
+	font-weight: 300;
+	max-width: 700px;
+	line-height: 1.5em;
+}
+
+
 /*IDs*/
+
+
+
+
+
+
+
+
+
+
+
 
