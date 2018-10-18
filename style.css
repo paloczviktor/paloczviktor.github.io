@@ -1,7 +1,8 @@
 /* BASIC ELEMENTS */
 
 * {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
 }
 
 header {
@@ -12,10 +13,17 @@ header {
 
 /*CLASSES*/
 
+/*header*/
+
+.header_name {
+	font-size: 32px;
+	font-weight: black;
+}
+
 /*navigation bar*/
 
 .navigation_bar {
-
+	
 }
 
 .navigation_bar ul {
@@ -24,8 +32,7 @@ header {
 
 .navigation_bar ul li {
 	display: inline-block;
-	padding-right: 30px;
-	padding-left: 30px;
+	width: 200px;
 	padding-top: 8px;
 	padding-bottom: 8px;
 }
