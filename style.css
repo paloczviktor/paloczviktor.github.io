@@ -109,7 +109,6 @@ footer {
 	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
 	border-radius: 20px;
 	margin-top: 20px;
-	display: flex;
 	margin-bottom: 30px;
 }
 
@@ -122,7 +121,7 @@ footer {
 	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
 }
 
-.idcard_info h3 {
+.idcard_info h3, .card h3 {
 	font-size: 25px;
 	margin-top: 30px;
 	margin-left: 30px;
@@ -146,11 +145,12 @@ footer {
 
 /*learning*/
 
-.semester_container {
+.container {
 	text-align: center;
 }
 
 .semester_card_table {
+	padding: 30px;
 	font-size: 25px;
 	color: black;
 	width: 640px;
@@ -165,6 +165,18 @@ footer {
 
 .semester_card_table tr th:nth-child(1), .semester_card_table tr td:nth-child(1) {
 	text-align: left;
+}
+
+/*projects*/
+
+.flex-container {
+	display: flex;
+}
+
+.project_card_image {
+	margin-bottom: 30px;
+	border-radius: 15px;
+	box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
 }
 
 /*IDs*/
