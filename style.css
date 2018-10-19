@@ -17,6 +17,7 @@ p {
 	font-size: 18px;
 	text-indent: 30px;
 	text-align: justify;
+	font-weight: 300;
 }
 
 a:link, a:visited {
@@ -109,6 +110,7 @@ footer {
 	border-radius: 20px;
 	margin-top: 20px;
 	display: flex;
+	margin-bottom: 30px;
 }
 
 .profile_picture {
@@ -138,7 +140,6 @@ footer {
 	margin-left: auto;
 	margin-top: 50px;
 	margin-right: auto;
-	font-weight: 300;
 	max-width: 700px;
 	line-height: 1.5em;
 }
