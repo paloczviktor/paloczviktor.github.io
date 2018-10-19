@@ -19,6 +19,16 @@ p {
 	text-align: justify;
 }
 
+a:link, a:visited {
+	text-decoration: none;
+	color: black;	
+}
+
+a:link:active, a:visited:active {
+	text-decoration: none;
+	color: rgba(0,0,0,0.6);
+}
+
 header {
 	align-content: center;
 	text-align: center;
