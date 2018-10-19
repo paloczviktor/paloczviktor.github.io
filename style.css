@@ -101,7 +101,7 @@ footer {
 
 /*identity_card*/
 
-.identity_card {
+.card {
 	margin: auto;
 	width: 700px;
 	box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
@@ -142,6 +142,28 @@ footer {
 	line-height: 1.5em;
 }
 
+/*learning*/
+
+.semester_container {
+	text-align: center;
+}
+
+.semester_card_table {
+	font-size: 25px;
+	color: black;
+	width: 640px;
+	margin: 30px;
+}
+
+.semester_card_table tr th, .semester_card_table tr td {
+	font-size: 25px;
+	font-family: VCR-OSD;
+	color: rgb(130,130,130);
+}
+
+.semester_card_table tr th:nth-child(1), .semester_card_table tr td:nth-child(1) {
+	text-align: left;
+}
 
 /*IDs*/
 
